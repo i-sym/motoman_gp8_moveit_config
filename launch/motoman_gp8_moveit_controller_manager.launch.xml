@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<launch>
+
+ <!-- Set the param that trajectory_execution_manager needs to find the controller plugin -->
+
+ <param name="moveit_controller_manager" value="moveit_simple_controller_manager/MoveItSimpleControllerManager"/>
+
+ <!-- Load controller_list -->
+
+ <rosparam file="$(find motoman_gp8_moveit_config)/config/controllers.yaml"/>
+
+</launch>
+
+

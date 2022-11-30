@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: motoman_gp8_support
+    relative_path: urdf/gp8.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/motoman_gp8.srdf
+  CONFIG:
+    author_name: Ivan Symotiuk
+    author_email: ivan.symotiuk@gmail.com
+    generated_timestamp: 1669307674
